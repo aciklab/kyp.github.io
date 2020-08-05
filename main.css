@@ -1,0 +1,489 @@
+
+
+body {
+    background-image: url('bg1.png');
+    background-repeat: no-repeat;
+
+  }
+
+.maindiv{
+    position: absolute;
+    background-image: url('bg1.png');
+}
+
+.mainlogo{
+position: absolute;
+left: 13.47%;
+right: 77.01%;
+top: 1.11%;
+bottom: 94.78%;
+
+background: url('kyplogo.png');
+}
+
+
+.uyeol label {
+
+font-family: Inter;
+font-style: normal;
+font-weight: 500;
+font-size: 14px;
+line-height: 24px;
+
+text-align: center;
+color: #FFFFFF;
+
+flex: none;
+order: 0;
+align-self: center;
+margin: 10px 0px;
+}
+
+/* Hakkımızda */
+
+.hakkimizda{
+    position: absolute;
+    width: 105px;
+    height: 27px;
+    left: 604px;
+    top: 68px;
+    
+    font-family: Poppins;
+    font-style: normal;
+    font-weight: 500;
+    font-size: 18px;
+    line-height: 27px;
+    color: #5A585C;
+}
+
+
+
+/* Ürünler */
+
+.urunler{
+position: absolute;
+width: 66px;
+height: 27px;
+left: 757px;
+top: 68px;
+
+font-family: Poppins;
+font-style: normal;
+font-weight: 500;
+font-size: 18px;
+line-height: 27px;
+color: #5A585C;
+}
+
+
+/* Topluluk */
+
+.topluluk{
+position: absolute;
+width: 76px;
+height: 27px;
+left: 871px;
+top: 68px;
+
+font-family: Poppins;
+font-style: normal;
+font-weight: 500;
+font-size: 18px;
+line-height: 27px;
+color: #5A585C;
+}
+
+
+/* Kaynaklar */
+
+.kaynaklar{
+position: absolute;
+width: 92px;
+height: 27px;
+left: 995px;
+top: 68px;
+
+font-family: Poppins;
+font-style: normal;
+font-weight: 500;
+font-size: 18px;
+line-height: 27px;
+/* identical to box height */
+color: #5A585C;
+}
+
+
+/* İletişim */
+
+.iletisim{
+position: absolute;
+width: 65px;
+height: 27px;
+left: 1135px;
+top: 68px;
+
+font-family: Poppins;
+font-style: normal;
+font-weight: 500;
+font-size: 18px;
+line-height: 27px;
+/* identical to box height */
+color: #5A585C;
+}
+
+/* Button / Solid / Rounded / Default */
+
+
+/* Auto Layout */
+.uyeol{
+display: flex;
+flex-direction: row;
+padding: 8px 24px;
+
+position: absolute;
+width: 93px;
+height: 40px;
+left: 1260px;
+top: 62px;
+
+background: #DE2212;
+border-radius: 50px;
+}
+
+
+
+
+.kyyp{
+position: absolute;
+width: 500px;
+height: 144px;
+left: 82px;
+top: 302px;
+
+font-family: Poppins;
+font-style: normal;
+font-weight: 500;
+font-size: 48px;
+line-height: 72px;
+
+color: #5A585C;
+}
+
+.kyypdesc{
+position: absolute;
+width: 500px;
+height: 112px;
+left: 82px;
+top: 482px;
+
+font-family: Merriweather;
+font-style: normal;
+font-weight: normal;
+font-size: 24px;
+line-height: 30px;
+
+color: #5A585C;
+}
+
+
+.card1{
+position: absolute;
+width: 250px;
+height: 250px;
+left: 177px;
+top: 796px;
+
+background: #FFFFFF;
+box-shadow: -5px -5px 20px rgba(0, 0, 0, 0.1), 0px 0px 2px rgba(40, 41, 61, 0.04), 10px 10px 20px rgba(96, 97, 112, 0.16);
+border-radius: 12px;
+}
+
+.card1_logo{
+position: absolute;
+width: 100.5px;
+height: 100px;
+left: 75px;
+top: 53px;
+
+background: #CFCFCF;
+border-radius: 8px;
+}
+
+
+.card1_title{
+position: absolute;
+width: 116px;
+height: 28px;
+left: 67px;
+top: 186px;
+
+/* Healines / H5 - 20px */
+
+font-family: Inter;
+font-style: normal;
+font-weight: bold;
+font-size: 20px;
+line-height: 28px;
+/* identical to box height, or 140% */
+
+text-align: center;
+
+/* Dark / Dark 400 */
+
+color: #28293D;
+}
+
+
+.card2{
+position: absolute;
+width: 250px;
+height: 250px;
+left: 463px;
+top: 796px;
+
+/* Light / Light 100 */
+
+background: #FFFFFF;
+box-shadow: -5px -5px 20px rgba(0, 0, 0, 0.1), 0px 0px 2px rgba(40, 41, 61, 0.04), 10px 10px 20px rgba(96, 97, 112, 0.16);
+border-radius: 12px;
+}
+
+.card3{
+    position: absolute;
+    width: 250px;
+    height: 250px;
+    left: 749px;
+    top: 796px;
+    
+    /* Light / Light 100 */
+    
+    background: #FFFFFF;
+    box-shadow: -5px -5px 20px rgba(0, 0, 0, 0.1), 0px 0px 2px rgba(40, 41, 61, 0.04), 10px 10px 20px rgba(96, 97, 112, 0.16);
+    border-radius: 12px;
+    }
+
+    .card4{
+        position: absolute;
+        width: 250px;
+        height: 250px;
+        left: 1035px;
+        top: 796px;
+        
+        /* Light / Light 100 */
+        
+        background: #FFFFFF;
+        box-shadow: -5px -5px 20px rgba(0, 0, 0, 0.1), 0px 0px 2px rgba(40, 41, 61, 0.04), 10px 10px 20px rgba(96, 97, 112, 0.16);
+        border-radius: 12px;
+        }
+
+.card_alt_s{ 
+position: absolute;
+width: 1110px;
+height: 581px;
+left: 165px;
+top: 1206px;
+}
+
+.card_alt1{      
+/* Auto Layout */
+
+display: flex;
+flex-direction: column;
+padding: 16px;
+
+position: absolute;
+width: 300px;
+height: 465px;
+left: 0px;
+top: 100px;
+
+/* Light / Light 100 */
+
+background: #FFFFFF;
+box-shadow: -5px -5px 20px rgba(0, 0, 0, 0.1), 0px 0px 1px rgba(40, 41, 61, 0.08), 0px 0.5px 2px rgba(96, 97, 112, 0.16);
+border-radius: 16px;
+}
+.card_alt2{      
+    /* Auto Layout */
+    
+    display: flex;
+    flex-direction: column;
+    padding: 16px;
+    
+    position: absolute;
+    width: 300px;
+    height: 465px;
+    left: 400px;
+    top: 100px;
+    
+    /* Light / Light 100 */
+    
+    background: #FFFFFF;
+    box-shadow: -5px -5px 20px rgba(0, 0, 0, 0.1), 0px 0px 1px rgba(40, 41, 61, 0.08), 0px 0.5px 2px rgba(96, 97, 112, 0.16);
+    border-radius: 16px;
+    }
+    .card_alt3{      
+        /* Auto Layout */
+        
+        display: flex;
+        flex-direction: column;
+        padding: 16px;
+        
+        position: absolute;
+        width: 300px;
+        height: 465px;
+        left: 800px;
+        top: 100px;
+        
+        /* Light / Light 100 */
+        
+        background: #FFFFFF;
+        box-shadow: -5px -5px 20px rgba(0, 0, 0, 0.1), 0px 0px 1px rgba(40, 41, 61, 0.08), 0px 0.5px 2px rgba(96, 97, 112, 0.16);
+        border-radius: 16px;
+        }
+
+.card_alt1_img{  
+position: static;
+height: 214px;
+left: 4.52%;
+right: 4.52%;
+top: 36px;
+
+border-radius: 8px;
+
+/* Inside Auto Layout */
+
+flex: none;
+order: 0;
+align-self: flex-start;
+margin: 16px 16px;
+}
+
+
+
+
+
+.card_alt1_title{  
+
+position: static;
+width: 300px;
+height: 42px;
+left: 0px;
+top: 0px;
+
+/* Healines / H3 - 28px */
+
+font-family: Inter;
+font-style: normal;
+font-weight: bold;
+font-size: 28px;
+line-height: 150%;
+/* identical to box height, or 42px */
+
+
+/* Dark / Dark 500 */
+
+color: #000000;
+
+/* Inside Auto Layout */
+
+flex: none;
+order: 0;
+align-self: flex-start;
+margin: 0px 8px;
+}
+
+.card_alt1_desc{ 
+/* Enim laboris ullamco quis ullamco proident occaecat et deserunt eiusmod pariatur aliquip nulla minim officia. Id minim ut sit aliquip minim aute ex. Excepteur et ipsum consequat aliqua excepteur. */
+
+position: static;
+width: 300px;
+height: 120px;
+left: 0px;
+top: 50px;
+
+/* Body / Body - 16px */
+
+font-family: Inter;
+font-style: normal;
+font-weight: normal;
+font-size: 16px;
+line-height: 150%;
+/* or 24px */
+
+
+/* Dark / Dark 300 */
+
+color: #555770;
+
+/* Inside Auto Layout */
+
+flex: none;
+order: 1;
+align-self: flex-start;
+margin: 0px 8px;
+}
+
+.card_alt1_devam{
+position: static;
+left: 0%;
+right: 0%;
+top: 0%;
+bottom: 0%;
+
+font-family: Inter;
+font-style: normal;
+font-weight: bold;
+font-size: 14px;
+line-height: 17px;
+letter-spacing: 0.75px;
+text-transform: uppercase;
+color: #DE2212;
+
+flex: none;
+order: 1;
+align-self: center;
+margin: 35px 0px;
+}
+
+.duyurular{
+position: absolute;
+width: 264px;
+height: 54px;
+left: 0px;
+top: 0px;
+
+font-family: Poppins;
+font-style: normal;
+font-weight: 500;
+font-size: 36px;
+line-height: 54px;
+/* identical to box height */
+
+color: #5A585C;
+}
+
+.duyurulartumu{
+position: absolute;
+width: 120px;
+height: 27px;
+left: 220px;
+top: 20px;
+
+font-family: Poppins;
+font-style: normal;
+font-weight: 500;
+font-size: 18px;
+line-height: 27px;
+/* identical to box height */
+color: #DE2212;
+}
+
+.grup6{
+position: absolute;
+width: 1110px;
+height: 581px;
+left: 165px;
+top: 1206px;
+}
+
