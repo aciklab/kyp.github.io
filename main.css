@@ -493,3 +493,193 @@ left: 165px;
 top: 756px;
 }
 
+.vizyonmisyon{
+position: absolute;
+width: 518px;
+height: 54px;
+left: 0px;
+top: 700px;
+
+font-family: Poppins;
+font-style: normal;
+font-weight: 500;
+font-size: 36px;
+line-height: 54px;
+/* identical to box height */
+color: #5A585C;
+}
+
+.vizyoncard1 {
+    position: absolute;
+    width: 250px;
+    height: 250px;
+    left: 0px;
+    top: 800px;
+
+    background: #FFFFFF;
+    box-shadow: -5px -5px 20px rgba(0, 0, 0, 0.1), 0px 0px 2px rgba(40, 41, 61, 0.04), 10px 10px 20px rgba(96, 97, 112, 0.16);
+    border-radius: 12px;
+}
+
+.vizyoncard2 {
+    position: absolute;
+    width: 250px;
+    height: 250px;
+    left: 300px;
+    top: 800px;
+    
+    background: #FFFFFF;
+    box-shadow: -5px -5px 20px rgba(0, 0, 0, 0.1), 0px 0px 2px rgba(40, 41, 61, 0.04), 10px 10px 20px rgba(96, 97, 112, 0.16);
+    border-radius: 12px;
+    }
+
+
+.vizyoncard3 {
+    position: absolute;
+    width: 250px;
+    height: 250px;
+    left: 0px;
+    top: 1100px;
+    
+    background: #FFFFFF;
+    box-shadow: -5px -5px 20px rgba(0, 0, 0, 0.1), 0px 0px 2px rgba(40, 41, 61, 0.04), 10px 10px 20px rgba(96, 97, 112, 0.16);
+    border-radius: 12px;
+    }
+
+
+.vizyoncard4 {
+    position: absolute;
+    width: 250px;
+    height: 250px;
+    left: 300px;
+    top: 1100px;
+    
+    background: #FFFFFF;
+    box-shadow: -5px -5px 20px rgba(0, 0, 0, 0.1), 0px 0px 2px rgba(40, 41, 61, 0.04), 10px 10px 20px rgba(96, 97, 112, 0.16);
+    border-radius: 12px;
+    }
+
+
+.vizyonsag{
+
+    position: absolute;
+    width: 622px;
+    height: 123px;
+    left: 760px;
+    top: 900px;
+    
+    font-family: Poppins;
+    font-style: normal;
+    font-weight: 500;
+    font-size: 36px;
+    line-height: 54px;
+    
+    color: #5A585C;
+
+}
+
+.vizyonaciklama{
+
+    position: absolute;
+    width: 502px;
+    height: 293px;
+    left: 760px;
+    top: 1050px;
+    
+    font-family: Merriweather;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 18px;
+    line-height: 23px;
+    
+    color: #5A585C;
+
+}
+
+.paydaslar{
+
+position: absolute;
+width: 518px;
+height: 54px;
+left: 162px;
+top: 2150px;
+
+font-family: Poppins;
+font-style: normal;
+font-weight: 500;
+font-size: 36px;
+line-height: 54px;
+/* identical to box height */
+
+
+color: #5A585C;
+}
+
+.footer {
+    position: absolute;
+    width: 1562px;
+    height: 110px;
+    left: 0px;
+    top: 2336px;
+    background-image: url('../bg2.jpg');
+    background-repeat: no-repeat;
+}
+
+.flogo{
+    position: absolute;
+    width: 327px;
+    height: 56px;
+    left: 59px;
+    top: 20px;
+    
+    font-family: Open Sans;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 12px;
+    text-align: center;
+    line-height: 28px;
+    
+    color: #000000;
+
+
+}
+
+.fcenter{
+    position: absolute;
+    width: 327px;
+    height: 56px;
+    left: 559px;
+    top: 50px;
+    
+    font-family: Open Sans;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 12px;
+    text-align: center;
+    line-height: 28px;
+    
+    color: #000000;
+
+
+}
+
+.footercopy{
+    position: absolute;
+    width: 327px;
+    height: 56px;
+    left: 1059px;
+    top: 30px;
+    
+    font-family: Open Sans;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 12px;
+    line-height: 28px;
+    /* or 233% */
+    
+    text-align: right;
+    
+    color: #000000;
+
+
+}
