@@ -83,11 +83,11 @@ margin: 10px 0px;
     top: 68px;
     
     font-family: Poppins;
-    font-style: normal;
+    font-style: bolder;
     font-weight: 500;
     font-size: 18px;
     line-height: 27px;
-    color: #5A585C;
+    color: #DE2212;
 }
 
 
@@ -106,7 +106,7 @@ font-style: normal;
 font-weight: 500;
 font-size: 18px;
 line-height: 27px;
-color: #5A585C;
+color: #DE2212;
 }
 
 
@@ -124,7 +124,7 @@ font-style: normal;
 font-weight: 500;
 font-size: 18px;
 line-height: 27px;
-color: #5A585C;
+color: #DE2212;
 }
 
 
@@ -142,8 +142,7 @@ font-style: normal;
 font-weight: 500;
 font-size: 18px;
 line-height: 27px;
-/* identical to box height */
-color: #5A585C;
+color: #DE2212;
 }
 
 
@@ -161,8 +160,7 @@ font-style: normal;
 font-weight: 500;
 font-size: 18px;
 line-height: 27px;
-/* identical to box height */
-color: #5A585C;
+color: #DE2212;
 }
 
 /* Button / Solid / Rounded / Default */
@@ -463,7 +461,6 @@ margin: 0px 8px;
 
 .card_alt1_devam{
 position: static;
-left: 0%;
 right: 0%;
 top: 0%;
 bottom: 0%;
@@ -479,8 +476,8 @@ color: #DE2212;
 
 flex: none;
 order: 1;
-align-self: center;
-margin: 35px 0px;
+align-self: left;
+margin: 35px 10px;
 }
 
 .duyurular{
@@ -500,11 +497,18 @@ line-height: 54px;
 color: #5A585C;
 }
 
+.duyuruok{
+    position: absolute;
+    left: 300px;
+    width: 10px;
+    top: 25px;
+}
+
 .duyurulartumu{
 position: absolute;
 width: 120px;
 height: 27px;
-left: 220px;
+left: 330px;
 top: 20px;
 
 font-family: Poppins;
@@ -515,6 +519,9 @@ line-height: 27px;
 /* identical to box height */
 color: #DE2212;
 }
+
+
+
 
 .grup6{
 position: absolute;
@@ -664,6 +671,26 @@ color: #5A585C;
     
     color: #5A585C;
     }
+.paydas1{
+    position: absolute;
+    }
+.paydas2{
+    position: absolute;
+    left:250px;
+    }
+.paydas3{
+    position: absolute;
+    left:470px;
+    }
+.paydas4{
+    position: absolute;
+    left:700px;
+    }
+.paydas5{
+    position: absolute;
+    left:900px;
+    }
+
 
 .footer {
     position: absolute;
@@ -731,3 +758,15 @@ color: #5A585C;
 
 
 }
+
+.footerbosluk1{
+    position: absolute;
+    }
+.footerbosluk2{
+    position: absolute;
+    left: 50px;
+    }
+.footerbosluk3{
+    position: absolute;
+    left: 100px;
+    }
