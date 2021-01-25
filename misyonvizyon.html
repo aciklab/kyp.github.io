@@ -1,0 +1,95 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <link rel="stylesheet"
+    href="https://fonts.googleapis.com/css?family=Poppins">
+    <link rel="stylesheet"
+    href="https://fonts.googleapis.com/css?family=Inter">
+    <meta http-equiv="Content-Type" content="text/html;charset=UTF-8">
+  <link rel="stylesheet" href="main.css">
+  <link rel="stylesheet" href="font-awesome-4.7.0/css/font-awesome.min.css">
+  <title>Kurumsal Yönetim Yazılımları Platformu</title>
+
+<script>
+
+/* When the user clicks on the button,
+toggle between hiding and showing the dropdown content */
+function myFunction1() {
+  document.getElementById("myDropdown1").classList.toggle("show");
+}
+
+function myFunction2() {
+  document.getElementById("myDropdown2").classList.toggle("show");
+}
+
+// Close the dropdown menu if the user clicks outside of it
+window.onclick = function(event) {
+  if (!event.target.matches('.linkmain1')) {
+    var dropdowns = document.getElementsByClassName("dropdown-content1");
+    var i;
+    for (i = 0; i < dropdowns.length; i++) {
+      var openDropdown = dropdowns[i];
+      if (openDropdown.classList.contains('show')) {
+        openDropdown.classList.remove('show');
+      }
+    }
+  }
+}
+window.onclick = function(event) {
+  if (!event.target.matches('.linkmain2')) {
+    var dropdowns = document.getElementsByClassName("dropdown-content2");
+    var i;
+    for (i = 0; i < dropdowns.length; i++) {
+      var openDropdown = dropdowns[i];
+      if (openDropdown.classList.contains('show')) {
+        openDropdown.classList.remove('show');
+      }
+    }
+  }
+}
+
+</script>
+
+
+</head>
+<body>
+ 
+  <div class="header">
+    <div><a href="index.html"><img width="280" height="150" src="kyplogo.png"></a></div>
+    <div class="logoyan"></div>
+    <div class="logoyan1"><img width="144" height="51" src="img/ssb.png"></div>
+    <div class="logoyan2"></div>
+    <div class="hakkimizda" onclick="myFunction1()">
+        <a class="linkmain1" href="#">Hakkımızda</a>
+        <div id="myDropdown1" class="dropdown-content1">
+          <a href="misyonvizyon.html">Misyon ve Vizyon</a>
+          <a href="amacvehedef.html">Amaç ve Hedef</a>
+          <a href="motivasyon.html">Motivasyon</a>
+        </div>
+    
+    </div>
+    <div class="urunler"><a class="linkmain" href="duyurular.html">Duyurular</a></div>
+    <div class="topluluk"><a class="linkmain" href="topluluk.html">Topluluk</a></div>
+    <div class="kaynaklar" onclick="myFunction2()">
+        <a class="linkmain2" href="#">Kaynaklar</a>
+        <div id="myDropdown2" class="dropdown-content2">
+          <a href="calismagruplari.html">Çalışma Grupları</a>
+          <a href="uygulamaalanlari.html">Uygulama Alanları</a>
+          <a href="#">Mesajlaşma</a>
+      </div>   
+    </div>
+    <div class="iletisim"><a class="linkmain" href="iletisim.html">İletişim</a></div>
+
+    <button class="uyeol"><label>Üye Ol</label></button>
+
+    </div>
+    <div class="maindiv">
+    <div class="kyypheader">Misyon ve Vizyon</div>
+    <div class="kyypdesc">Kurumsal yönetim alanında, Geliştirici, kullanıcı, teşvik edici ve düzenleyici kamu ve özel sektör paydaşlarının birlikte çözüm sağladığı milli, yerli, güvenli ve maliyet etkin ürünlerin gelişimini mümkün kılan bir platform oluşturmak.</div>
+
+
+
+
+</div>
+</body>
+</html>
