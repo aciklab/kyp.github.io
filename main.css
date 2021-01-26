@@ -118,7 +118,7 @@ margin: 10px 0px;
 position: absolute;
 width: 66px;
 height: 27px;
-left: 745px;
+left: 720px;
 top: 68px;
 
 font-family: Poppins;
@@ -136,7 +136,7 @@ color: #DE2212;
 position: absolute;
 width: 76px;
 height: 27px;
-left: 871px;
+left: 840px;
 top: 68px;
 
 font-family: Poppins;
@@ -152,9 +152,9 @@ color: #DE2212;
 
 .kaynaklar{
 position: absolute;
-width: 92px;
+width: 130px;
 height: 27px;
-left: 995px;
+left: 975px;
 top: 68px;
 
 font-family: Poppins;
@@ -283,7 +283,7 @@ position: absolute;
 width: 250px;
 height: 280px;
 left: 0px;
-top: 200px;
+top: 320px;
 
 background: #FFFFFF;
 box-shadow: -5px -5px 20px rgba(0, 0, 0, 0.1), 0px 0px 2px rgba(40, 41, 61, 0.04), 10px 10px 20px rgba(96, 97, 112, 0.16);
@@ -331,7 +331,7 @@ position: absolute;
 width: 250px;
 height: 280px;
 left: 270px;
-top: 200px;
+top: 320px;
 
 /* Light / Light 100 */
 
@@ -345,7 +345,7 @@ border-radius: 12px;
     width: 250px;
     height: 280px;
     left: 540px;
-    top: 200px;
+    top: 320px;
     
     /* Light / Light 100 */
     
@@ -359,7 +359,7 @@ border-radius: 12px;
         width: 250px;
         height: 280px;
         left: 810px;
-        top: 200px;
+        top: 320px;
         
         /* Light / Light 100 */
         
@@ -387,7 +387,7 @@ position: absolute;
 width: 300px;
 height: 365px;
 left: 0px;
-top: 100px;
+top: 200px;
 
 /* Light / Light 100 */
 
@@ -406,7 +406,7 @@ border-radius: 16px;
     width: 300px;
     height: 365px;
     left: 400px;
-    top: 100px;
+    top: 200px;
     
     /* Light / Light 100 */
     
@@ -425,7 +425,7 @@ border-radius: 16px;
         width: 300px;
         height: 365px;
         left: 800px;
-        top: 100px;
+        top: 200px;
         
         /* Light / Light 100 */
         
@@ -539,10 +539,10 @@ margin: 35px 10px;
 
 .duyurular{
 position: absolute;
-width: 264px;
+width: 2px;
 height: 54px;
 left: 0px;
-top: 0px;
+top: 100px;
 
 font-family: Poppins;
 font-style: normal;
@@ -558,7 +558,7 @@ color: #5A585C;
     position: absolute;
     left: 300px;
     width: 10px;
-    top: 25px;
+    top: 325px;
 }
 
 .duyurulartumu{
@@ -566,7 +566,7 @@ position: absolute;
 width: 120px;
 height: 27px;
 left: 330px;
-top: 20px;
+top: 320px;
 
 font-family: Poppins;
 font-style: normal;
@@ -679,7 +679,7 @@ color: #5A585C;
     width: 502px;
     height: 293px;
     left: 600px;
-    top: 800px;
+    top: 750px;
     
     font-family: Merriweather;
     font-style: normal;
@@ -693,7 +693,7 @@ color: #5A585C;
 
 .footer {
     position: relative;
-    width: 1050px;
+    width: 1350px;
     margin: auto;
     height: 110px;
     left: 0px;
@@ -805,3 +805,18 @@ color: #5A585C;
   .show {display:block;}
 
 
+  .firmalar1{
+    clear: both;
+    width: 1000px;
+    padding: 0px;
+    margin: auto;
+}
+
+.firma1{
+    float: left;
+    min-height: 100px;
+    width: 24%;
+    border: 0px solid black;
+    text-align: center;
+    min-width: 100px;
+}
